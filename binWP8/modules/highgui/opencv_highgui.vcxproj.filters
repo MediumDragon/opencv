@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="opencv_highgui_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\highgui\src\loadsave.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\highgui\src\bitstrm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\highgui\src\grfmt_base.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\highgui\src\grfmt_bmp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\highgui\src\grfmt_exr.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\highgui\src\grfmt_hdr.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\highgui\src\grfmt_jpeg.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\highgui\src\grfmt_jpeg2000.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\highgui\src\grfmt_png.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\highgui\src\grfmt_pxm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\highgui\src\grfmt_sunras.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\highgui\src\grfmt_tiff.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\highgui\src\grfmt_webp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\highgui\src\utils.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\highgui\src\rgbe.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\modules\highgui\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cvconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opencv2\opencv_modules.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\modules\highgui\src\bitstrm.hpp">
+      <Filter>Include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\modules\highgui\src\grfmt_hdr.hpp">
+      <Filter>Include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\modules\highgui\src\grfmt_jpeg.hpp">
+      <Filter>Include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\modules\highgui\src\grfmt_jpeg2000.hpp">
+      <Filter>Include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\modules\highgui\src\grfmt_png.hpp">
+      <Filter>Include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\modules\highgui\src\grfmt_pxm.hpp">
+      <Filter>Include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\modules\highgui\src\grfmt_sunras.hpp">
+      <Filter>Include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\modules\highgui\src\grfmt_tiff.hpp">
+      <Filter>Include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\modules\highgui\src\grfmt_webp.hpp">
+      <Filter>Include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\modules\highgui\src\grfmts.hpp">
+      <Filter>Include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\modules\highgui\src\grfmt_base.hpp">
+      <Filter>Include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\modules\highgui\src\grfmt_bmp.hpp">
+      <Filter>Include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\modules\highgui\src\grfmt_exr.hpp">
+      <Filter>Include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\modules\highgui\src\rgbe.hpp">
+      <Filter>Include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\modules\highgui\src\utils.hpp">
+      <Filter>Include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\modules\highgui\include\opencv2\highgui.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{41E2E7F5-7453-43BA-AB67-D2B35B03315F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\highgui">
+      <UniqueIdentifier>{AE85E01A-0599-49F8-A672-55FEFD70525C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6AD1896D-6F5B-477E-BF2C-AEBCD6DD68E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7DC9405A-3962-406E-B251-7E64995DFAF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{ED916C95-C19C-4034-995D-B187043BC00B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{5E7E07E2-DFEA-4346-8F32-789B71078771}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -34,6 +34,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_features2d", "module
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_stitching", "modules\stitching\opencv_stitching.vcxproj", "{4F6D59C6-E54D-4715-ADFF-061A144EFB07}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_highgui", "modules\highgui\opencv_highgui.vcxproj", "{3C802AB3-F8A6-4546-B21E-4289409CFDBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -170,6 +172,14 @@ Global
 		{4F6D59C6-E54D-4715-ADFF-061A144EFB07}.Release|ARM.Build.0 = Release|ARM
 		{4F6D59C6-E54D-4715-ADFF-061A144EFB07}.Release|Win32.ActiveCfg = Release|Win32
 		{4F6D59C6-E54D-4715-ADFF-061A144EFB07}.Release|Win32.Build.0 = Release|Win32
+		{3C802AB3-F8A6-4546-B21E-4289409CFDBE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3C802AB3-F8A6-4546-B21E-4289409CFDBE}.Debug|ARM.Build.0 = Debug|ARM
+		{3C802AB3-F8A6-4546-B21E-4289409CFDBE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3C802AB3-F8A6-4546-B21E-4289409CFDBE}.Debug|Win32.Build.0 = Debug|Win32
+		{3C802AB3-F8A6-4546-B21E-4289409CFDBE}.Release|ARM.ActiveCfg = Release|ARM
+		{3C802AB3-F8A6-4546-B21E-4289409CFDBE}.Release|ARM.Build.0 = Release|ARM
+		{3C802AB3-F8A6-4546-B21E-4289409CFDBE}.Release|Win32.ActiveCfg = Release|Win32
+		{3C802AB3-F8A6-4546-B21E-4289409CFDBE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
