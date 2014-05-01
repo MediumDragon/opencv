@@ -122,12 +122,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\..\modules\objdetect\CMakeLists.txt" />
-    <CustomBuild Include="..\..\CMakeFiles\5a21f6950743cf21c77608283c1c7bf5\opencl_kernels.cpp.rule">
-      <Filter>CMake Rules</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\..\..\modules\objdetect\src\opencl\cascadedetect.cl">
       <Filter>Src\opencl\kernels</Filter>
     </None>

@@ -104,12 +104,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\..\modules\calib3d\CMakeLists.txt" />
-    <CustomBuild Include="..\..\CMakeFiles\12bdd80d1da66b9414ccdd75d6b5d6b6\opencl_kernels.cpp.rule">
-      <Filter>CMake Rules</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\..\..\modules\calib3d\src\opencl\stereobm.cl">
       <Filter>Src\opencl\kernels</Filter>
     </None>

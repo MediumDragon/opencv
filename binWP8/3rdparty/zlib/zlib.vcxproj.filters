@@ -83,9 +83,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\..\3rdparty\zlib\CMakeLists.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <Filter Include="Source Files">
       <UniqueIdentifier>{6AD1896D-6F5B-477E-BF2C-AEBCD6DD68E5}</UniqueIdentifier>
     </Filter>

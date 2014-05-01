@@ -179,12 +179,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\..\modules\imgproc\CMakeLists.txt" />
-    <CustomBuild Include="..\..\CMakeFiles\7b4ee7f68f09bc6c0d9ae4d6d804aed6\opencl_kernels.cpp.rule">
-      <Filter>CMake Rules</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\..\..\modules\imgproc\src\opencl\accumulate.cl">
       <Filter>Src\opencl\kernels</Filter>
     </None>

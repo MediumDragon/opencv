@@ -134,9 +134,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\..\modules\flann\CMakeLists.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <Filter Include="Include\opencv2">
       <UniqueIdentifier>{41E2E7F5-7453-43BA-AB67-D2B35B03315F}</UniqueIdentifier>
     </Filter>

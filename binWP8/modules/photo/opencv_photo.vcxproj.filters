@@ -95,12 +95,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\..\modules\photo\CMakeLists.txt" />
-    <CustomBuild Include="..\..\CMakeFiles\72d342023a58b5f22a4760d6487a4e18\opencl_kernels.cpp.rule">
-      <Filter>CMake Rules</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\..\..\modules\photo\src\opencl\nlmeans.cl">
       <Filter>Src\opencl\kernels</Filter>
     </None>

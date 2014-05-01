@@ -95,12 +95,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\..\modules\stitching\CMakeLists.txt" />
-    <CustomBuild Include="..\..\CMakeFiles\6614cae22baacef5857bc7ebb5ea6ae9\opencl_kernels.cpp.rule">
-      <Filter>CMake Rules</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\..\..\modules\stitching\src\opencl\warpers.cl">
       <Filter>Src\opencl\kernels</Filter>
     </None>

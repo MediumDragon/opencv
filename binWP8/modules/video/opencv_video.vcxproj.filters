@@ -83,12 +83,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\..\modules\video\CMakeLists.txt" />
-    <CustomBuild Include="..\..\CMakeFiles\e6e69b417a00cd56ffa0525f452cfd4e\opencl_kernels.cpp.rule">
-      <Filter>CMake Rules</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\..\..\modules\video\src\opencl\bgfg_mog2.cl">
       <Filter>Src\opencl\kernels</Filter>
     </None>

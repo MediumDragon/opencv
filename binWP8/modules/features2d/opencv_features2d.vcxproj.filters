@@ -86,12 +86,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\..\modules\features2d\CMakeLists.txt" />
-    <CustomBuild Include="..\..\CMakeFiles\9426513d9ddc38c7a1b79d8602750651\opencl_kernels.cpp.rule">
-      <Filter>CMake Rules</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\..\..\modules\features2d\src\opencl\brute_force_match.cl">
       <Filter>Src\opencl\kernels</Filter>
     </None>

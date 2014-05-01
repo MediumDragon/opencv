@@ -344,12 +344,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\..\modules\core\CMakeLists.txt" />
-    <CustomBuild Include="..\..\CMakeFiles\432acef9357e9edb73cd9aa5b5f6fd11\opencl_kernels.cpp.rule">
-      <Filter>CMake Rules</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="version_string.inc" />
     <None Include="..\..\..\modules\core\src\opencl\arithm.cl">
       <Filter>Src\opencl\kernels</Filter>
