@@ -64,6 +64,7 @@
       <AdditionalIncludeDirectories>..\..\..\3rdparty\libjpeg;..\..\..\binWP8;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;WINVER=0x0602;NTDDI_VERSION=NTDDI_WIN8;_WIN32_WINNT=0x0602;_VARIADIC_MAX=10;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4013;4244;4267</DisableSpecificWarnings>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -79,6 +80,7 @@
       <AdditionalIncludeDirectories>..\..\..\3rdparty\libjpeg;..\..\..\binWP8;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;WINVER=0x0602;NTDDI_VERSION=NTDDI_WIN8;_WIN32_WINNT=0x0602;_VARIADIC_MAX=10;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4013;4244;4267</DisableSpecificWarnings>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -94,6 +96,7 @@
       <AdditionalIncludeDirectories>..\..\..\3rdparty\libjpeg;..\..\..\binWP8;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;WINVER=0x0602;NTDDI_VERSION=NTDDI_WIN8;_WIN32_WINNT=0x0602;_VARIADIC_MAX=10;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4013;4244;4267</DisableSpecificWarnings>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -109,6 +112,7 @@
       <AdditionalIncludeDirectories>..\..\..\3rdparty\libjpeg;..\..\..\binWP8;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;WINVER=0x0602;NTDDI_VERSION=NTDDI_WIN8;_WIN32_WINNT=0x0602;_VARIADIC_MAX=10;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4013;4244;4267</DisableSpecificWarnings>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

@@ -71,6 +71,7 @@
       <PrecompiledHeaderFile>precomp.hpp</PrecompiledHeaderFile>
       <ForcedIncludeFiles>precomp.hpp</ForcedIncludeFiles>
       <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -91,6 +92,7 @@
       <PrecompiledHeaderFile>precomp.hpp</PrecompiledHeaderFile>
       <ForcedIncludeFiles>precomp.hpp</ForcedIncludeFiles>
       <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -111,6 +113,7 @@
       <PrecompiledHeaderFile>precomp.hpp</PrecompiledHeaderFile>
       <ForcedIncludeFiles>precomp.hpp</ForcedIncludeFiles>
       <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -131,6 +134,7 @@
       <PrecompiledHeaderFile>precomp.hpp</PrecompiledHeaderFile>
       <ForcedIncludeFiles>precomp.hpp</ForcedIncludeFiles>
       <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
