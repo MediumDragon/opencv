@@ -106,6 +106,8 @@ struct CvCapture
 
 /*************************** CvVideoWriter structure ****************************/
 
+#if WINAPI_FAMILY != WINAPI_FAMILY_PHONE_APP
+
 struct CvVideoWriter
 {
     virtual ~CvVideoWriter() {}
@@ -136,6 +138,8 @@ CvCapture* cvCreateFileCapture_OpenNI( const char* filename );
 CvCapture* cvCreateCameraCapture_Android( int index );
 CvCapture* cvCreateCameraCapture_XIMEA( int index );
 CvCapture* cvCreateCameraCapture_AVFoundation(int index);
+
+#endif
 
 CVAPI(int) cvHaveImageReader(const char* filename);
 CVAPI(int) cvHaveImageWriter(const char* filename);
@@ -196,6 +200,8 @@ double cvGetRatioWindow_GTK(const char* name);
 double cvGetOpenGlProp_W32(const char* name);
 double cvGetOpenGlProp_GTK(const char* name);
 
+#if WINAPI_FAMILY != WINAPI_FAMILY_PHONE_APP
+
 namespace cv
 {
     class IVideoCapture
@@ -209,6 +215,8 @@ namespace cv
         virtual int getCaptureDomain() { return CAP_ANY; } // Return the type of the capture object: CAP_VFW, etc...
     };
 };
+
+#endif
 
 //for QT
 #if defined (HAVE_QT)

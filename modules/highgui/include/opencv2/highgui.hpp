@@ -530,6 +530,7 @@ enum { CAP_INTELPERC_DEPTH_MAP              = 0, // Each pixel is a 16-bit integ
        CAP_INTELPERC_IMAGE                  = 3
      };
 
+#if WINAPI_FAMILY != WINAPI_FAMILY_PHONE_APP
 
 class IVideoCapture;
 class CV_EXPORTS_W VideoCapture
@@ -584,6 +585,8 @@ protected:
 
 template<> CV_EXPORTS void DefaultDeleter<CvCapture>::operator ()(CvCapture* obj) const;
 template<> CV_EXPORTS void DefaultDeleter<CvVideoWriter>::operator ()(CvVideoWriter* obj) const;
+
+#endif
 
 } // cv
 
